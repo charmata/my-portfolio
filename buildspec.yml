@@ -6,7 +6,8 @@ phases:
       nodejs: 10
   build:
     commands:
-      - echo Nothing to do yet
+      - yarn
+      - yarn run webpack
 
 artifacts:
   files:
@@ -14,3 +15,4 @@ artifacts:
     - favicon.ico
     - styles/main.css
     - images/*
+    - dist/bundle.js
