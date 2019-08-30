@@ -4,9 +4,12 @@ phases:
   install:
     runtime-versions:
       nodejs: 10
-  build:
+  pre-build:
     commands:
       - yarn
+      - yarn test
+  build:
+    commands:
       - yarn run webpack
 
 artifacts:
