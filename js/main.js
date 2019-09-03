@@ -4,37 +4,34 @@ import ExampleWork from "./example-work";
 
 const myWork = [
   {
-    title: "Work Example",
-    href: "https://example.com",
+    title: "Noob Board",
+    href: "https://noob-board.herokuapp.com",
     desc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat arcu id risus eleifend, ac auctor risus egestas. In eu ipsum lacus.",
+      "A community for new developers to ask and answer questions, share ideas, and help each other out. Post your problem, comment a solution, and favourite helpful posts.",
     image: {
-      desc: "example screenshot of a project involving code",
-      src: "images/example1.png",
+      desc: "Noob Board",
+      src: "images/noob-board.png",
       comment: ""
     }
   },
   {
-    title: "Portfolio Boilerplate",
-    href: "https://example.com",
-    desc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat arcu id risus eleifend, ac auctor risus egestas. In eu ipsum lacus.",
+    title: "Events Tracker",
+    href: "https://charmata.github.io/events-tracker",
+    desc: "This application lets you search for events in major North American cities.",
     image: {
-      desc: "A Serverless Portfolio",
-      src: "images/example2.png",
+      desc: "Events Tracker",
+      src: "images/events-tracker.png",
       comment: ""
     }
   },
   {
-    title: "Work Example",
-    href: "https://example.com",
-    desc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat arcu id risus eleifend, ac auctor risus egestas. In eu ipsum lacus.",
+    title: "Moviepedia",
+    href: "https://moviepedia-1.herokuapp.com",
+    desc: "Review and explore movies.",
     image: {
-      desc: "example screenshot of a project involving cats",
-      src: "images/example3.png",
-      comment: `“Bengal cat” by roberto shabs is licensed under CC BY 2.0
-                https://www.flickr.com/photos/37287295@N00/2540855181`
+      desc: "Moviepedia search page",
+      src: "images/moviepedia.png",
+      comment: ""
     }
   }
 ];

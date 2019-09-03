@@ -55,13 +55,18 @@ html {
 }
 
 body {
-  font-family: 'Cardo', serif;
+  font-family: "Cardo", serif;
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: .1rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.1rem;
 }
 
 /*
@@ -75,7 +80,6 @@ h1, h2, h3, h4, h5, h6 {
 .overflow--auto {
   overflow: auto;
 }
-
 
 /*
   Sections
@@ -136,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 34rem;
 }
 
-.section__exampleTitle{
+.section__exampleTitle {
   font-size: 3.4rem;
   text-align: center;
   text-transform: uppercase;
@@ -179,7 +183,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3rem;
 }
 
-
 /*
   Modal
 */
@@ -206,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 5rem;
   font-size: 4rem;
   z-index: 1;
-  curson: pointer;
+  cursor: pointer;
 }
 
 .modal__text {
@@ -228,4 +231,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .modal__image {
   opacity: 0.2;
+  width: 100%;
+  background-size: cover;
 }
